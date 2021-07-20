@@ -1,0 +1,142 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .content-slider h1{
+        font-size: 30px;
+    }
+    .content-slider p{
+        font-size: 15px;
+    }
+    .scroll-top{
+    font-size: 18px;
+    right: 35px;
+    bottom: 35px;
+    padding: 9px 15px;
+    }
+    .navbar{
+        padding: 0 12px;
+    }
+    .top-left {
+        display: block;
+        text-align: center;
+    }
+    .top-social {
+        text-align: center;
+    }
+    .top-left a{
+        font-size: 14px !important;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .section-header::after,.section-header::before {
+    display: none;
+    }
+    .sm-size {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .pt-100, .pb-100{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-area p {
+        text-align: center;
+        /* display: block; */
+        text-align: center;
+    }
+    .text-end{
+        text-align: center !important;
+        display: block;
+    }
+    .footer-area{
+        padding: 30px 0;
+    }
+    .portfolio li{
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)  */
+@media (max-width: 767.98px) {
+    header.top-header {
+        padding: 15px 0;
+    }
+    
+   
+    .section-header::before {
+        width: 80px;
+        top: 40px;
+    }
+    .progress{
+        margin: 16px 0;
+    }
+    .skill-progress h4{
+font-size: 16px;
+    }
+   
+.about-section{
+    padding-top: 50px;
+    padding-bottom: 0 !important;
+
+}
+.section-header h2{
+    font-size: 28px;
+}
+.section-header p{
+    font-size: 14px;
+}
+.about-content h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box-btn{
+    font-size: 13px;
+    font-weight: 500;
+}
+.about-con{
+    padding-top: 50px;
+}
+.skill-section{
+    padding-top: 0;
+}
+.skill-title{
+    margin-top: 40px;
+}
+.services-area{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .content-slider{
+        width: 90%;
+    }
+    .hero-slider .owl-dots {
+        right: 45%;
+        top: 90%;
+        flex-direction: row;
+        transform: translateY(-50%);
+    }
+    .hero{
+        height: 80vh
+    }
+    .hero-slider .owl-dots button{
+width: 15px;
+height: 15px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+}
+
+/* XX-Large devices (larger desktops) */
